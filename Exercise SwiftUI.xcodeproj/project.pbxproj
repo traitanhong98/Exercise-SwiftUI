@@ -14,6 +14,8 @@
 		C3B6A0DE280C694C00136E88 /* Exercise_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B6A0DD280C694C00136E88 /* Exercise_SwiftUITests.swift */; };
 		C3B6A0E8280C694C00136E88 /* Exercise_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B6A0E7280C694C00136E88 /* Exercise_SwiftUIUITests.swift */; };
 		C3B6A0EA280C694C00136E88 /* Exercise_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B6A0E9280C694C00136E88 /* Exercise_SwiftUIUITestsLaunchTests.swift */; };
+		C3B6A0FA280C695A00136E88 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B6A0F7280C695A00136E88 /* Datas.swift */; };
+		C3B6A0FB280C695A00136E88 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B6A0F9280C695A00136E88 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		C3B6A0E3280C694C00136E88 /* Exercise SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Exercise SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B6A0E7280C694C00136E88 /* Exercise_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		C3B6A0E9280C694C00136E88 /* Exercise_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3B6A0F7280C695A00136E88 /* Datas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
+		C3B6A0F9280C695A00136E88 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,8 @@
 		C3B6A0CB280C694A00136E88 /* Exercise SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				C3B6A0F6280C695A00136E88 /* Datas */,
+				C3B6A0F8280C695A00136E88 /* Models */,
 				C3B6A0CC280C694A00136E88 /* Exercise_SwiftUIApp.swift */,
 				C3B6A0CE280C694A00136E88 /* ContentView.swift */,
 				C3B6A0D0280C694C00136E88 /* Assets.xcassets */,
@@ -125,6 +131,22 @@
 				C3B6A0E9280C694C00136E88 /* Exercise_SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = "Exercise SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		C3B6A0F6280C695A00136E88 /* Datas */ = {
+			isa = PBXGroup;
+			children = (
+				C3B6A0F7280C695A00136E88 /* Datas.swift */,
+			);
+			path = Datas;
+			sourceTree = "<group>";
+		};
+		C3B6A0F8280C695A00136E88 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3B6A0F9280C695A00136E88 /* Models.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +280,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3B6A0CF280C694A00136E88 /* ContentView.swift in Sources */,
+				C3B6A0FA280C695A00136E88 /* Datas.swift in Sources */,
 				C3B6A0CD280C694A00136E88 /* Exercise_SwiftUIApp.swift in Sources */,
+				C3B6A0FB280C695A00136E88 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
